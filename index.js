@@ -1,8 +1,4 @@
 const express = require('express')
-const bodyParser = require('body-parse')
-const alexaVerifier = require('alexa-verifier')
-const fs = require('fs')
-const https = require('https')
 const app = express()
 
 app.get('/', (req, res) => {
