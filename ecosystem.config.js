@@ -7,7 +7,7 @@ module.exports = {
     production: {
       user: 'ubuntu',
       host: 'ec2-54-91-59-202.compute-1.amazonaws.com',
-      key: '~/.ssh/id_rsa',
+      key: '~/.ssh/jarvis.pem',
       ref: 'origin/master',
       repo: 'git@github.com:aamcdanieli/jarvis.git',
       path: '/home/ubuntu/jarvis',
