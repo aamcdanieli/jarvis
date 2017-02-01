@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-54-196-167-29.compute-1.amazonaws.com',
+      host: 'ec2-54-91-59-202.compute-1.amazonaws.com',
       key: '~/.ssh/jarvis.pem',
       ref: 'origin/master',
       repo: 'git@github.com:aamcdanieli/jarvis.git',
